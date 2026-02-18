@@ -1,34 +1,50 @@
-# 📊 AI Data Visualization Agent
+# 📊 AI Data Analyst (Powered by OpenRouter)
 
-An intelligent Streamlit application that transforms your data into beautiful visualizations using natural language queries. Powered by state-of-the-art Large Language Models (LLMs) and secure code execution in E2B's sandboxed environment.
+An intelligent data visualization and analysis agent that builds charts, tables, and insights from your CSV/Excel datasets using natural language.
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.40+-red.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/AI-OpenRouter-7450f6?style=for-the-badge)
 
-## 🌟 Features
-
-- **Natural Language Interface** - Ask questions about your data in plain English
-- **Fast & Free LLM Models** - Powered by Groq:
-  - Llama 3.3 70B (Best performance)
-  - Llama 3.1 8B (Fastest)
-  - Mixtral 8x7B
-  - Gemma 2 9B
-- **Rich Visualizations** - Supports line charts, bar charts, scatter plots, pie charts, bubble charts, and more
-- **Automatic Data Preprocessing** - Smart data cleaning and preparation
-- **Secure Execution** - Code runs in E2B's isolated sandbox environment
-- **Interactive UI** - Beautiful, user-friendly Streamlit interface
-- **Real-time Generation** - Watch visualizations appear instantly
+## ✨ Features
+- **Natural Language Analysis**: Ask "What are the top skills?" or "Show me a bar chart of salaries".
+- **Multi-Model Support** (via OpenRouter):
+    -   **[FREE]** Google Gemini 2.0 Flash (Default)
+    -   **[FREE]** Llama 3.3 70B
+    -   **[PREMIUM]** DeepSeek R1 (Reasoning)
+    -   **[PREMIUM]** GPT-4o & Claude 3.5 Sonnet
+- **Robustness**:
+    -   **Auto-Retry**: Automatically handles API credit limits by optimizing token usage.
+    -   **Model Fallback**: Switches to free models if premium ones are busy.
+    -   **Smart Cleaning**: Handles messy CSV data (lists, dates, typos) automatically.
+- **Secure Execution**: Code runs in a sandboxed environment (E2B).
+- **Payment Gateway**: Mock integration for Premium features (Razorpay/Stripe).
 
 ## 📋 Prerequisites
+-   **Python 3.10+**
+-   **OpenRouter API Key**: [Get it here](https://openrouter.ai/keys)
+-   **E2B API Key**: [Get it here](https://e2b.dev)
 
-Before you begin, ensure you have:
+## 🚀 Installation
 
-- **Python 3.10 or higher** installed on your machine
-- **Groq API Key** - [Get it here](https://console.groq.com/)
-- **E2B Code Interpreter API Key** - [Get it here](https://e2b.dev/docs)
-- A code editor (VS Code or PyCharm recommended)
-- Basic familiarity with Python
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/ai-data-analyst.git
+    cd ai-data-analyst
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Run the App**:
+    ```bash
+    streamlit run ai_data_visualisation_agent.py
+    ```
+
+## 🛠️ Configuration
+Enter your **OpenRouter API Key** in the sidebar to start. 
+The app defaults to the **Free Mode** (Gemini 2.0 Flash) so you can test without cost!
 
 ## 🚀 Quick Start
 
