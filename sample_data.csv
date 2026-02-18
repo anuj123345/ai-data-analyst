@@ -1,0 +1,21 @@
+Product,Category,Price,Sales,Rating,Region
+Laptop,Electronics,1200,150,4.5,North
+Phone,Electronics,800,320,4.3,South
+Tablet,Electronics,500,200,4.2,East
+Monitor,Electronics,300,180,4.4,West
+Keyboard,Accessories,50,450,4.1,North
+Mouse,Accessories,30,500,4.0,South
+Headphones,Accessories,100,280,4.6,East
+Webcam,Accessories,80,160,4.3,West
+Desk,Furniture,400,90,4.2,North
+Chair,Furniture,250,120,4.5,South
+Bookshelf,Furniture,180,75,4.1,East
+Lamp,Furniture,60,200,4.0,West
+Notebook,Stationery,5,800,4.4,North
+Pen,Stationery,2,1200,4.2,South
+Pencil,Stationery,1,1500,4.3,East
+Eraser,Stationery,1,900,4.1,West
+Backpack,Bags,70,180,4.5,North
+Briefcase,Bags,120,95,4.4,South
+Messenger Bag,Bags,85,110,4.3,East
+Laptop Bag,Bags,60,150,4.2,West
